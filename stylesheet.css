@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body{
+    background-color: rgb(223, 222, 222);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(70, 70, 70);
+}
+
+.card{
+    padding: 20px;
+    box-shadow: 5px 10px 10px rgba(41, 41, 56, 0.808);
+    transition: 1s;
+    transition-property: background-color, transform;
+}
+
+.card:hover{
+    background-color: #ffe1bf;
+    transform: scale(1.1);
+}
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.logo{
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(41, 41, 56, 0.808);
+    transition: 1s;
+    transition-property: transform;
+}
+
+.logo:hover{
+    transform: scale3d(1.4, 1.4, 1.4);
+}
+
+.card-row{
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.navbar-nav{
+    margin-right: 50px;
+}
+
+.barra{
+    box-shadow: -1px 10px 10px rgba(41, 41, 56, 0.808);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.nav-item{
+    font-weight: 500;
+    box-shadow: 5px 10px 10px rgba(41, 41, 56, 0.808);
+    margin: 10px;
+    border-radius: 10px;
+    transition: 1s;
+    transition-property: background-color, transform;
+    background-color: #FFA354;
+}
+
+.nav-item:hover{
+    background-color: primary;
+    transform: scale(1.2);
+    background-color: #007BFF;
+}
+
+.nav-link{
+    color: antiquewhite;
+}
+
+.cards-body{
+    margin-top: 200px;
+    margin-left: 150px;
+    align-self: center;
+    justify-content: center;
+}
+
+.card-menu{
+    width: 300px;
+    height: 400px;
+    box-shadow: 5px 10px 10px rgba(41, 41, 56, 0.808);
+    transition: 1s;
+    transition-property: background-color, transform;
+}
+
+.card-menu:hover{
+    background-color: #ffe1bf;
+    transform: translate(0px, -30px);;
+}
+
+.list-body{
+    margin-top: 50px;
+}
+
+.cabecalho{
+    margin-top: 120px;
+}
+
+.img-sucesso{
+    width: 300px;
+}
